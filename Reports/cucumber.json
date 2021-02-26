@@ -1,0 +1,458 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Author: sandhyarani10.mohanty@gmail.com"
+      },
+      {
+        "line": 2,
+        "value": "#Keywords Summary :"
+      },
+      {
+        "line": 3,
+        "value": "#Feature: List of scenarios."
+      },
+      {
+        "line": 4,
+        "value": "#Scenario: Business rule through list of steps with arguments."
+      }
+    ],
+    "line": 6,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 17396042400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforestartUp(Scenario)"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Create and verify Customer booking",
+        "description": "",
+        "id": "customer-booking-creation-and-verification;create-and-verify-customer-booking;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1064771600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 256409900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Open Home page and verify the landing page on landing page",
+            "match": {
+              "location": "HomePageSteps.open_Home_page_and_verify_the_landing_page_on_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 17024124500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User enters the \"Frankfurt\", \"Mar 2021,31\", \"Apr 2021,10\" and click on search button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Frankfurt",
+                  "offset": 17
+                },
+                {
+                  "val": "Mar 2021,31",
+                  "offset": 30
+                },
+                {
+                  "val": "Apr 2021,10",
+                  "offset": 45
+                }
+              ],
+              "location": "HomePageSteps.user_enters_the_and_click_on_search_button(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12383093400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User selects the \"Filter\" and click on \"Book Now\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Filter",
+                  "offset": 18
+                },
+                {
+                  "val": "Book Now",
+                  "offset": 40
+                }
+              ],
+              "location": "HomePageSteps.user_selects_the_and_click_on_button(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11061662400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User clicks on \"Continue\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Continue",
+                  "offset": 16
+                }
+              ],
+              "location": "HomePageSteps.user_clicks_on_button(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1518916300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User enters \"Sandhya\",\"Mohanty\", \"Mrs.\",\"Hamburger str\", \"80809\", \"Munich\", \"Germany\",\"17657614733\", \"10-01-1990\", \"sandhyarani10.mohanty@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sandhya",
+                  "offset": 13
+                },
+                {
+                  "val": "Mohanty",
+                  "offset": 23
+                },
+                {
+                  "val": "Mrs.",
+                  "offset": 34
+                },
+                {
+                  "val": "Hamburger str",
+                  "offset": 41
+                },
+                {
+                  "val": "80809",
+                  "offset": 58
+                },
+                {
+                  "val": "Munich",
+                  "offset": 67
+                },
+                {
+                  "val": "Germany",
+                  "offset": 77
+                },
+                {
+                  "val": "17657614733",
+                  "offset": 87
+                },
+                {
+                  "val": "10-01-1990",
+                  "offset": 102
+                },
+                {
+                  "val": "sandhyarani10.mohanty@gmail.com",
+                  "offset": 116
+                }
+              ],
+              "location": "HomePageSteps.user_enters(String,String,String,String,String,String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3079817500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User press the \"Continue\" button on personal details page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Continue",
+                  "offset": 16
+                }
+              ],
+              "location": "HomePageSteps.user_press_the_button_on_personal_details_page(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 8,
+            "name": "@Roadsurfer_VerifyCampervanBooking"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 12282974300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforestartUp(Scenario)"
+            }
+          }
+        ],
+        "line": 41,
+        "name": "Create and verify Customer booking with additional package",
+        "description": "",
+        "id": "customer-booking-creation-and-verification;create-and-verify-customer-booking-with-additional-package;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 892384500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 84630800,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Open Home page and verify the landing page on landing page",
+            "match": {
+              "location": "HomePageSteps.open_Home_page_and_verify_the_landing_page_on_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 16953121200,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User enters the \"Frankfurt\", \"Mar 2021,31\", \"Apr 2021,10\" and click on search button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Frankfurt",
+                  "offset": 17
+                },
+                {
+                  "val": "Mar 2021,31",
+                  "offset": 30
+                },
+                {
+                  "val": "Apr 2021,10",
+                  "offset": 45
+                }
+              ],
+              "location": "HomePageSteps.user_enters_the_and_click_on_search_button(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12174775300,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User selects the \"Filter\" and click on \"Book Now\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Filter",
+                  "offset": 18
+                },
+                {
+                  "val": "Book Now",
+                  "offset": 40
+                }
+              ],
+              "location": "HomePageSteps.user_selects_the_and_click_on_button(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3054191800,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user clicks \"Additional Package\" from the list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Additional Package",
+                  "offset": 13
+                }
+              ],
+              "location": "HomePageSteps.user_clicks_from_the_list(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11048999300,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User clicks on \"Continue\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Continue",
+                  "offset": 16
+                }
+              ],
+              "location": "HomePageSteps.user_clicks_on_button(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1514199400,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "User enters \"Sandhya\",\"Mohanty\", \"Mrs.\",\"Hamburger str\", \"80809\", \"Munich\", \"Germany\",\"17657614733\", \"10-01-1990\", \"sandhyarani10.mohanty@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sandhya",
+                  "offset": 13
+                },
+                {
+                  "val": "Mohanty",
+                  "offset": 23
+                },
+                {
+                  "val": "Mrs.",
+                  "offset": 34
+                },
+                {
+                  "val": "Hamburger str",
+                  "offset": 41
+                },
+                {
+                  "val": "80809",
+                  "offset": 58
+                },
+                {
+                  "val": "Munich",
+                  "offset": 67
+                },
+                {
+                  "val": "Germany",
+                  "offset": 77
+                },
+                {
+                  "val": "17657614733",
+                  "offset": 87
+                },
+                {
+                  "val": "10-01-1990",
+                  "offset": 102
+                },
+                {
+                  "val": "sandhyarani10.mohanty@gmail.com",
+                  "offset": 116
+                }
+              ],
+              "location": "HomePageSteps.user_enters(String,String,String,String,String,String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3132437800,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User press the \"Continue\" button on personal details page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Continue",
+                  "offset": 16
+                }
+              ],
+              "location": "HomePageSteps.user_press_the_button_on_personal_details_page(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 26,
+            "name": "@Roadsurfer_VerifyCampervanBookingWithAdditionalDetails"
+          }
+        ]
+      }
+    ],
+    "name": "Customer booking creation and verification",
+    "description": "",
+    "id": "customer-booking-creation-and-verification",
+    "keyword": "Feature",
+    "uri": "Roadsurfer.feature"
+  }
+]
